@@ -1,0 +1,58 @@
+<suite name="TestAll">
+
+
+    <test name="Launch a Chrome Browser ">
+        <classes>
+            <class name="WebConnect" />
+        </classes>
+    </test>
+
+    <test name="Launch HomePage ">
+        <classes>
+            <class name="HomePage"/>
+        </classes>
+    </test>
+
+    <test name="ShoesPage">
+        <classes>
+            <class name="Shoes"/>
+        </classes>
+    </test>
+
+
+
+    <test name="Men'sShoesPage">
+        <classes>
+            <class name="MensShoes"/>
+        </classes>
+    </test>
+
+    <test name="ShoesSizePage ">
+        <classes>
+            <class name="shoeSize"/>
+        </classes>
+    </test>
+
+    <test name="FirstItemPage">
+        <classes>
+            <class name="FirstItem"/>
+        </classes>
+    </test>
+
+    <test name="AddToCartPage">
+        <classes>
+            <class name="AddToCart"/>
+        </classes>
+    </test>
+
+    <parameter name="email" value="usermail"/>
+    <parameter name="password" value="user@123"/>
+
+    <test name="SignInPage">
+        <classes>
+            <class name="SignIn"/>
+        </classes>
+    </test>
+
+
+</suite>
